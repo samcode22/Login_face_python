@@ -78,7 +78,7 @@ class Dlib_Face_Unlock:
 			with open('KnownFace.pickle','wb') as self.known_faces_file:
 				pickle.dump(self.known_faces, self.known_faces_file)
 		else:
-			with open (r'CC:\Users\barry\PycharmProjects\face_rec\KnownFace.pickle','rb') as self.faces_file:
+			with open (r'CC:\Users\samya\PycharmProjects\face\KnownFace.pickle','rb') as self.faces_file:
 				self.known_faces = pickle.load(self.faces_file)
 			print(self.known_faces)
 	  
